@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #000;
+}
+header {
+    font-family: "Play", sans-serif;
+    height: 10vh;
+    text-align: center;
+    color: royalblue;
+    margin-top: 3rem;
+}
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start {
+    font-family: "Play", sans-serif;
+    text-decoration: none;
+    color: orange;
+    font-size: 4rem;
+    transition: all ease-in-out 2s;
+    text-shadow: 0 0 0 white;
+    animation: wave 6s infinite ease-in-out;
+}
+#start:hover {
+    transform: scale(1.2);
+    text-shadow: 0.2rem 0.2rem 0 grey;
+}
+@keyframes wave {
+    0% {
+        color: orange;
+        transform: scale(1.1);
+    }   
+    25% {
+        color: white;
+        transform: scale(1);
+    }
+    50% {
+        color: orange;
+        transform: scale(1.1);
+    }
+    75% {
+        color: white;
+        transform: scale(1);
+    }
+    100% {
+        color: orange;
+        transform: scale(1.1);
+    }
+}
