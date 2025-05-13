@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background: #fcf9f5;
+}
+.wrapper {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.rules {
+    width: 50vw;
+    background: red;
+    padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+}
+#rules {
+    background: yellow;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+}
+#nextTask {
+    background: royalblue;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    display: none;
+}
+.answer {
+    margin-top: 20px;
+}
+.taskProgress, .timeProgress {
+    position: fixed;
+    left: 26vw;
+    top: 42vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timeProgress {
+    left: 60vw;
+}
+.sound {
+    margin-top: 13rem;
+}
+#btnTask1 {
+    width: 50px;
+    height: 50px;
+}
+#inputTask1 {
+    width: 146px;
+    height: 50px;
+}
+.start {
+    font-size: 25px;
+    font-family: sans-serif;
+    background: red;
+    padding: 10px 20px;
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 15%;
+}
+.taskProgress, .timeProgress, .sound, .answer {
+    display: none;
+}
